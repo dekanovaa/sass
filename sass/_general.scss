@@ -1,0 +1,124 @@
+/* unbounded-200 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 200;
+    src: url('../fonts/unbounded-v7-latin-200.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* unbounded-300 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/unbounded-v7-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* unbounded-regular - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/unbounded-v7-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* unbounded-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/unbounded-v7-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* unbounded-600 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/unbounded-v7-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* unbounded-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/unbounded-v7-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* unbounded-800 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/unbounded-v7-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* unbounded-900 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/unbounded-v7-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    padding: 0;
+    margin: 0 auto;
+    }
+
+
+
+@media(max-width:1150px){
+  .container{
+    width: 90%;}
+    .footer__pic{
+      display: none;
+    }
+    .footer__link{
+      width: 200px;
+      text-align: center;
+    }
+    .footer__list{
+      width: 80%;
+    }
+    .section__img{
+      width: 390px;
+      height: 360px;
+      left: 65%;
+    }
+    .hero__wrap{
+      padding-top:20px;
+    }  
+}
+@media(max-width:1050px){
+  .container{
+    width: 90%;
+  }
+  .section__img{
+    width: 280px;
+    height: 280px;
+  }
+  .footer__link{
+    width: 150px;
+    text-align: center;
+
+  }
+  .ending__text{
+    width: 400px;
+  }
+  .service__item{
+    height: 300px;
+  }
+}
+
+ 
+  
+

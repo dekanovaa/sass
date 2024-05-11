@@ -1,0 +1,46 @@
+.main__tittle{
+    font-family: 'unbounded',sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color:#020C31;
+    padding-bottom: 20px;
+}
+hr{
+    color: #CCCCCC;
+    width: 100%;
+    height: 1px;
+}
+.main__img{
+    width: 70px;
+    height: 56px;
+}
+.main__name{
+    color: #020C31;
+    font-family:'unbounded',sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.main__text{
+    color: #676D83;
+    font-family: sans-serif;
+    font-size: 16px;
+    width: 301px;
+    line-height: 24px;
+}
+.main__list{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-top: 20px;
+}
+.main__container{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.main__item:hover{
+    opacity: 0.8;
+}
+
+

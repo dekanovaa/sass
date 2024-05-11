@@ -1,0 +1,43 @@
+.body__container{
+    background:linear-gradient(#3DA0FC , #02E3D6 ); 
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.body__box{
+    width: 50%;
+}
+.body__img{
+    width: 40%;
+    height: 100%;
+    margin: 30px;
+}
+.body__tittle{
+    color: #FAFAFA;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'unbounded',sans-serif;
+    width: 80%;
+    line-height: 48px;
+    padding-bottom: 20%;
+}
+.body__button{
+    width: 190px;
+    height: 40px;
+    border-radius: 62px;
+    background-color:#3375FF;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+}
+.body__button:hover{
+    background-color: white;
+    color: #3375FF;
+    font-weight: bold;
+}
+.body__pic{
+    width: 80px;
+    height: 100px;
+}
